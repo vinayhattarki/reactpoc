@@ -1,10 +1,8 @@
 var http = require('http')
-var browserify = require('browserify')
-var literalify = require('literalify')
 var React = require('react')
 var ReactDOMServer = require('react-dom/server')
 var DOM = require('react-dom-factories')
-var AWS = require('aws-sdk')
+
 // Our router, DB and React components are all shared by server and browser
 // thanks to browserify
 var router = require('./router')
